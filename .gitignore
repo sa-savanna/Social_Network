@@ -1,0 +1,10 @@
+.nyc_output/
+coverage/
+node_modules/
+npm-debug.log
+package-lock.json
+test/*.log
+*.log
+*.gz
+dependencies.txt
+default.json
