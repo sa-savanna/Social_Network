@@ -7,4 +7,4 @@ test/*.log
 *.log
 *.gz
 dependencies.txt
-default.json
+config/default.json
