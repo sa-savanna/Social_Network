@@ -1,9 +1,12 @@
 {
+  "homepage": "http://sa-savanna.github.io/social_network",
   "name": "social_network",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server",
     "server": "nodemon server",
     "clients": "npm start --prefix clients",
@@ -27,6 +30,7 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0"
+    "concurrently": "^5.2.0",
+    "gh-pages": "^3.1.0"
   }
 }
